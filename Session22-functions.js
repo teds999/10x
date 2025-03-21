@@ -122,20 +122,27 @@
 //  // reason is simple and is connected with js Hoisting , js automaticly converts all functions on top and then makes commands , in this they firstly it declared function and then made turnBackTime(); function
 
 
+
 // EXERCISE 11
 // function batman(){
 //   function realBatman(){
-//     return "I am Batman"
+//     return "I am batman";
 //   }
-//   return realBatman();
+//   return realBatman;
 // }
 // const bruce = batman();
-// console.log(bruce);
+// console.log(bruce());
 
 
 
-EXERCISE 12
-function magicMirror(message,transformFunction){
-  return `the miror says : ${transformFunction(message)}`;
-}
-console.log(magicMirror("Will i be rich ?",str => str.toUpperCase()));
+
+// EXERCISE 12
+// function magicMirror(message, transformFunction) {
+//   const transformedMessage = transformFunction(message);
+//   return `The mirror says: ${transformedMessage}`;
+// }
+
+// console.log(magicMirror("Will I be rich?", str => str.toUpperCase()));
+
+
+
