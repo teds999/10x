@@ -139,3 +139,33 @@
 //   }
 
 // console.log(processTransaction(100,12,"deposit")); 
+
+
+
+// cc#7.2
+
+//  function getRoomPrice(type,isWeekend,hasDiscount){
+//   let price;
+
+// if(type === "standard"){
+//   price = isWeekend ? 120 : 100;
+// }else if (type === "deluxe"){
+//   price = isWeekend ? 180 : 150;
+// }else if (type === "suite"){
+//   price = isWeekend ? 250 : 200;
+// } else {
+//   return "Invalid room type";
+// }
+
+// if(hasDiscount){
+//   price = price * 0.9;
+// }
+
+// return price ;
+
+//  }
+//  console.log(getRoomPrice("standard", false, false)); 
+//  console.log(getRoomPrice("deluxe", true, true));     
+//  console.log(getRoomPrice("suite", true, false));
+
+
