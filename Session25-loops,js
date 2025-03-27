@@ -1,0 +1,48 @@
+// WRITING IN .js FILE TYPE , CHECKING IN TERMINAL. GL HOMEWORKHUNTER ( BY : TEDO TURMANIDZE)
+
+
+
+//  t1
+// function countDownFrom(n) {
+//   for (let i = n ; i >= 1 ; i--){
+//     console.log(i);
+//   }
+// }
+
+
+// countDownFrom(19);
+
+
+
+
+
+
+// t2
+// function printArrayElements(arr) {
+//   for (const fruit of arr){
+//     console.log(fruit);
+//   }
+// }
+// printArrayElements(["Apple", "Banana", "Cherry"]);
+
+
+
+
+
+
+
+
+
+// // t3
+// function sumNumbersUpTo(n){
+//   let sum = 0
+//   let i = 1
+//   while(i <= n){
+//     sum += i;
+//     i++
+//   }
+//   return sum;
+// }
+
+// console.log(sumNumbersUpTo(20));
+
