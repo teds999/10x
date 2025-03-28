@@ -46,3 +46,21 @@
 
 // console.log(sumNumbersUpTo(20));
 
+
+
+// t4
+
+function repeatString(str,n){
+  let i = 0;
+  let result = "";
+
+    do {
+       result += str;
+       i++
+    }while (i < n);
+
+  return result;
+
+
+}
+console.log(repeatString("hello",12))
