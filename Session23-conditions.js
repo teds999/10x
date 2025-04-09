@@ -126,3 +126,16 @@
 // triangleType(2,2,2)
 
 
+// cc#7
+// function processTransaction(balance,amount,transactionType){
+//   if (transactionType === "withdraw" && amount <= balance){
+//     return balance-amount;
+//   }else if (transactionType === "deposit"){
+//     return balance+amount;
+//   }else{
+//     return "Insufficient funds";
+//   }
+
+//   }
+
+// console.log(processTransaction(100,12,"deposit")); 
