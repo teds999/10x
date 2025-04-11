@@ -36,4 +36,93 @@
 
 
 
+// cc#5
+
+// function calculate (a,b,operator){
+//   switch (operator){
+
+//     case '+' :
+//       return a + b;
+//     break;
+
+//     case '-':
+//       return a - b;
+//     break;
+
+//     case '/' :
+//       return a / b ;
+//     break;
+
+//     case '*':
+//       return a * b;
+//     break;
+
+//   }
+
+// }
+// console.log(calculate(10, 5, '*'));
+// console.log(calculate(5, 1, '-'));
+// console.log(calculate(63, 2, '/'));
+// console.log(calculate(14, 665, '+'));
+// console.log(calculate(22, 3, '-'));
+
+
+
+// cc#5.2
+// function playGame(player1,player2){
+//   if (player1 === player2){
+//     console.log("Its tie !")
+//   }
+
+
+//   switch (player1){
+//     case 'rock':
+//       switch(player2){
+//         case 'paper':
+//         return 'Player 2 wins';
+//         case 'scissors':
+//           return 'Player 1 wins';
+//       }
+//       break;
+    
+//     case 'paper':
+//       switch(player2){
+//         case 'scissors':
+//           return "Player 2 wins";
+//         case 'rock':
+//           return "Player 1 wins";
+//       }
+//       break;
+
+//     case 'scissors':
+//       switch(player2){
+//         case 'rock':
+//           return 'Player 2 wins';
+//         case 'paper':
+//           return 'Player 1 wins';
+//       }
+//   }
+// }
+
+// playGame('rock','rock');
+
+
+
+
+// cc#6
+
+// function triangleType(a,b,c){
+//   if (a==b && b==c){
+//     console.log("Equilateral");
+//   }else if (a!=b && a!=c && b!=c ){
+//     console.log("Scalene");
+//   }else if ((a == b || a == c || b == c)){
+//     console.log('Isosceles')
+//   }else{
+//     console.log('not triangle')
+//   }
+
+// }
+// triangleType(2,2,2)
+
 
