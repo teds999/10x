@@ -50,17 +50,53 @@
 
 // t4
 
-function repeatString(str,n){
-  let i = 0;
-  let result = "";
+// function repeatString(str,n){
+//   let i = 0;
+//   let result = "";
 
-    do {
-       result += str;
-       i++
-    }while (i < n);
+//     do {
+//        result += str;
+//        i++
+//     }while (i < n);
 
-  return result;
+//   return result;
 
 
-}
-console.log(repeatString("hello",12))
+// }
+// console.log(repeatString("hello",12))
+
+
+
+
+// t5
+// function printObjectKeys(obj){
+//   for(let key in obj){
+//     console.log(key);
+//   }
+// }
+
+
+// printObjectKeys({ name: "Alice", age: 25 });
+
+
+
+
+// t6
+// function filterOdds(n){
+//   for(let i = 0 ; i <= n ; i++){
+//     if(i % 2 !== 0){
+//       console.log(i);
+//     }else {
+//       console.log("-");
+//     }
+//   } 
+
+// }
+// console.log(filterOdds(9));
+
+
+
+
+
+
+
