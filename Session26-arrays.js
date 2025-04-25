@@ -120,7 +120,7 @@ const totalRisks = riskLevels.reduce((sum , risks) => {
     return  sum + risks;
 }, 0);
 const firstRisk = riskLevels.find(element => element >= 150);
-const spliceRisk = riskLevels.splice(element => element > 80);
+const spliceRisk = riskLevels.splice(80);
 
 
 console.log(`Turn into Binary => ${turnHex}`);
