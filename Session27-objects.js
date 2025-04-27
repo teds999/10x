@@ -59,6 +59,58 @@
 
 
 
+// t5
+
+// function animal(name,species){
+//   this.name = name,
+//   this.species = species,
+//   this.makesound = function(){
+//     return "animal sound";
+//   };
+// }
+// const pet = new animal("greengoo","cat");
+
+// console.log(`name : ${pet.name},species : ${pet.species}`);
+
+
+// t6
+
+
+// class bankAccount{
+//   #balance
+//   constructor(initialBalance){
+//     this.#balance=initialBalance;
+//   }
+
+// deposit(amount){
+//   this.#balance += amount;
+//   console.log(`deposited ${amount}, your balance is ${this.#balance}`);
+  
+// }
+
+
+// withdraw(amount){
+//   if (amount > this.#balance){
+//     console.log('invalid amount , not enought balance');
+//     return ;
+//   } else {
+//     this.#balance -= amount;
+//     console.log(`withdrawed ${amount} , your balance is ${this.#balance}`);
+//   }
+// }
+
+//   getBalance(){
+//     return this.#balance;
+//   }
+
+// }
+
+
+// const myAccount =  new bankAccount(2000);
+// myAccount.deposit(900);
+// myAccount.withdraw(300)
+// console.log(myAccount.getBalance());
 
 
 
+// t7
